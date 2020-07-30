@@ -23,13 +23,17 @@ except FileNotFoundError:
     sys.exit(1)
 
 
-# relative mapping of the Paddock B text file
-filename = 'CDAX_examples\PaddockB_19_01_20.txt'
 region = r'satellite_data\region_coordinates\polygon_true.json'
 
 
 # Note
 sentinel_object = GetSatData('sentinel', region, [2020,1,10], [2020,1,19], cloud_threshold= 5 )
+
+# Other datasets that you can use. 
+
+#sentinel_object = GetSatData('landsat8', region, [2020,1,10], [2020,1,19], cloud_threshold= 5 )
+#sentinel_object = GetSatData('landsat7', region, [2020,1,10], [2020,1,19], cloud_threshold= 5 )
+
 ndvi, lon, lat = sentinel_object.load_ndvi_image(img = "first")
 cs = ax.pcolormesh(lon.T, lat.T, ndvi[0] , zorder =0, cmap = 'viridis')
 ax4 = fig.add_axes([0.15,0.03,0.5, 0.02])
