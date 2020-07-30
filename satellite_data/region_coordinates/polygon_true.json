@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Rectangle",
+                "coordinates": [[
+				[175.530433,-37.647828],
+				[175.530433, -37.72523],
+				[175.629782, -37.72523],
+				[175.629782,-37.647828]
+				]
+				]
+            }
+        }
+    ]
+}

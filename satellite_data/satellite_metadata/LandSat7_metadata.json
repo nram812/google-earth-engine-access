@@ -1,0 +1,30 @@
+{
+  "B1": {
+    "res": 30,
+    "wavelenght": 450
+  },
+  "B2": {
+    "res": 30,
+    "wavelenght": 520
+  },
+  "B3": {
+    "res": 30,
+    "wavelenght": 630
+  },
+  "B4": {
+    "res": 30,
+    "wavelenght": 770
+  },
+  "B5": {
+    "res": 30,
+    "wavelenght": 1550
+  },
+  "B6": {
+    "res": 60,
+    "wavelenght": 10400
+  },
+  "B7": {
+    "res": 30,
+    "wavelenght": 2080
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "B1": {
+    "res": 60,
+    "wavelenght": 443.9
+  },
+  "B2": {
+    "res": 10,
+    "wavelenght": 496.6
+  },
+  "B3": {
+    "res": 10,
+    "wavelenght": 560
+  },
+  "B4": {
+    "res": 10,
+    "wavelenght": 664.5
+  },
+  "B5": {
+    "res": 20,
+    "wavelenght": 703.9
+  },
+  "B6": {
+    "res": 20,
+    "wavelenght": 740.2
+  },
+  "B7": {
+    "res": 20,
+    "wavelenght": 782.5
+  },
+  "B8": {
+    "res": 10,
+    "wavelenght": 835.1
+  },
+  "B8A": {
+    "res": 20,
+    "wavelenght": 864.8
+  },
+  "B9": {
+    "res": 60,
+    "wavelenght": 945
+  },
+  "B11": {
+    "res": 20,
+    "wavelenght": 1613.7
+  },
+  "B12": {
+    "res": 20,
+    "wavelenght": 2202
+  }
+}
